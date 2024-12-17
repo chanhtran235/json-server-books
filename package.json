@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "chmod +x ./node_modules/.bin/json-server",
     "start": "npx json-server --watch db.json --port 8080"
   },
   "keywords": [],
